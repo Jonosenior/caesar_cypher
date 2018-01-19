@@ -14,7 +14,6 @@ def caesar_cypher(input_str, key)
     end
   end
   answer.join("")
-  #return 0
 end
 
 def index_returns_to_alphabet_start(index)
@@ -23,7 +22,3 @@ def index_returns_to_alphabet_start(index)
   end
   index
 end
-
-#caesar_cypher("A", 2)
-#puts caesar_cypher("What a string!", 5)
-#caesar_cypher("b", 2)
