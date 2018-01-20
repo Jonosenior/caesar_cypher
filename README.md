@@ -1,6 +1,8 @@
 # Caesar Cypher
 
-This projects uses a Caesar cypher - a basic form of encryption - to encode any user input.
+This projects uses a Caesar Cypher - a basic form of encryption - to encode any user input. You can try out the live app [here](https://blooming-brushlands-58622.herokuapp.com/).
+
+The application takes a text and a number input from the user, and replaces each letter of the text by 'shifting' it by the number. So an input of "A, 3" produces "D", as the letter D is three places down from A.  
 
 This project went through three iterations. The first was a simple Ruby script, the second was to add Rspec tests, and the third was to use Sinatra to add a front-end.
 
@@ -16,6 +18,13 @@ From Wikipedia:
 
 ## Installation
 
+Open terminal/command line, navigate to the directory where you want this project to go, and type:
+```
+$ git clone https://github.com/JonoSenior/caesar_cypher.git
+$ cd caesar_cypher
+$ ruby lib/caesar_cypher.rb
+```
+
 ## Thoughts
 
-## Todo
+  * This is my first time creating and deploying a web app of my own creation. It's great to finally understand what the Gemfile, Gemfile.lock and config.ru files do, after seeing them in so many repos.
