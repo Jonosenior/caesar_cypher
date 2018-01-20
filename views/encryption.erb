@@ -1,13 +1,15 @@
-
+<div id="content">
 <h1>Caesar Cypher</h1>
 <form action="/encryption">
-  <input type="text" name="text" placeholder="your text">
-  <input type="text" name="shift" placeholder="shift">
+  <input type="text" name="text" placeholder="text to encode">
+  <input type="text" name="shift" placeholder="number of letters to shift by">
   <input type="submit">
 </form>
 
 <% if @text %>
-  <!-- <h1> Your text was <%= @text %></h1>
-  <h1> Your key was <%= @key %></h1> -->
-  <h1> Your coded message is <%= @encoded_text %></h1>
+  <h5> Your coded message is:</h5>
+  <h2><%= @encoded_text %></h2>
 <% end %>
+
+<img src="https://www.geeksforgeeks.org/wp-content/uploads/Caesar-Cipher-3.png">
+<div>

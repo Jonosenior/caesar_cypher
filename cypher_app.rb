@@ -3,9 +3,6 @@ require 'sinatra/reloader'
 require 'erb'
 require_relative 'lib/caesar_cypher'
 
-
-# caesar_cypher("a", 2)
-
 get '/' do
   erb :encryption
 end

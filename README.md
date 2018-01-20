@@ -4,11 +4,11 @@ This projects uses a Caesar cypher - a basic form of encryption - to encode any 
 
 This project went through three iterations. The first was a simple Ruby script, the second was to add Rspec tests, and the third was to use Sinatra to add a front-end.
 
+![Screenshot](images/cypher_screenshot.png)
+
 It's a project from [The Odin Project](https://www.theodinproject.com/courses/ruby-on-rails/lessons/sinatra-project).
 
 ## The Cypher
-
-![Explanation](http://microbit-challenges.readthedocs.io/en/latest/_images/shift.png)
 
 From Wikipedia:
 
